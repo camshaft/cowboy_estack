@@ -1,0 +1,11 @@
+{application, cowboy_estack, [
+  {description, "estack middleware for cowboy"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
